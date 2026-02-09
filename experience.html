@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expériences - Carnet de Compétences</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+    <div class="brand">
+      <h1 class="site-title">Expériences</h1>
+      <p class="site-sub">Stages et Jobs Étudiants</p>
+    </div>
+    <div class="menu-toggle"><span></span><span></span><span></span></div>
+    <nav class="main-nav">
+      <a href="index.html">Accueil</a>
+      <a href="competences.html">Compétences</a>
+      <a href="projets.html">Projets</a>
+      <a href="experience.html" aria-current="page">Expériences</a>
+      <a href="benevolat.html">Bénévolat</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container mt-5 mb-5">
+
+  <h2 class="mb-4">Expériences Professionnelles</h2>
+
+  <!-- Visuels & Photos: galerie simple -->
+  <div class="card-light p-4 mb-4">
+    <h4 class="mb-2">Outils & Technos Utilisées</h4>
+    <p class="mb-3">Principales technologies rencontrées lors de mes expériences professionnelles.</p>
+    <div class="tech-logos-grid mt-4">
+      <figure class="tech-logo-item">
+        <div class="tech-logo-icon animate-logo spin" style="background: linear-gradient(135deg, #3776ab, #366994); color: white;">🐍</div>
+        <figcaption>Python</figcaption>
+      </figure>
+      
+      <figure class="tech-logo-item">
+        <div class="tech-logo-icon animate-logo float" style="background: linear-gradient(135deg, #61dafb, #00d8ff); color: #20232a;">⚛️</div>
+        <figcaption>Machine Learning</figcaption>
+      </figure>
+      
+      <figure class="tech-logo-item">
+        <div class="tech-logo-icon animate-logo spin float" style="background: linear-gradient(135deg, #007396, #0066b2); color: white;">☕</div>
+        <figcaption>Embedded Systems</figcaption>
+      </figure>
+      
+      <figure class="tech-logo-item">
+        <div class="tech-logo-icon animate-logo float" style="background: linear-gradient(135deg, #336791, #2a5caf); color: white;">🗄️</div>
+        <figcaption>Ticketing IT</figcaption>
+      </figure>
+      
+      <figure class="tech-logo-item">
+        <div class="tech-logo-icon animate-logo spin" style="background: linear-gradient(135deg, #2496ed, #1e88e5); color: white;">🔧</div>
+        <figcaption>Support Système</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- Stage KU Leuven -->
+  <div class="card-light p-4 mb-4 reveal">
+    <h4 class="mb-1">Stage — KU Leuven (Belgique 2025)</h4>
+    <p class="text-muted mb-2"><strong>Lieu :</strong> Louvain, Belgique • <strong>Période :</strong> Été 2025</p>
+    <p class="mb-3">Stage de recherche en <strong>Machine Learning distribué</strong> sur microcontrôleurs <strong>STM32/ESP32</strong>, axé sur l’optimisation mémoire et le déploiement embarqué.</p>
+
+    <h5 class="mt-3">Missions principales</h5>
+    <ul class="stagger-list">
+      <li>Optimisation de modèles ML pour microcontrôleurs à ressources limitées.</li>
+      <li>Compression et quantification pour réduire la mémoire et la latence.</li>
+      <li>Déploiement d’algorithmes sur STM32/ESP32 et analyse des performances.</li>
+    </ul>
+
+    <h5 class="mt-3">Compétences développées</h5>
+    <ul class="stagger-list">
+      <li><strong>Techniques :</strong> programmation embarquée, optimisation de modèles, gestion des ressources matérielles.</li>
+      <li><strong>Transversales :</strong> autonomie, communication en anglais, rigueur scientifique.</li>
+    </ul>
+  </div>
+
+  <!-- Helpline Crédit Agricole -->
+  <div class="card-light p-4 mb-4 reveal">
+    <h4 class="mb-1">Helpline — Crédit Agricole</h4>
+    <p class="text-muted mb-2"><strong>Lieu :</strong> Angers, France • <strong>Période :</strong> Juillet - Août 2024</p>
+    <p class="mb-3">Assistance informatique aux employés du Crédit Agricole, avec support à distance et gestion d’appels en débordement.</p>
+
+    <h5 class="mt-3">Missions principales</h5>
+    <ul class="stagger-list">
+      <li>Support utilisateur à distance (Windows, logiciels internes, réseau).</li>
+      <li>Résolution d’incidents et suivi via outils de ticketing.</li>
+      <li>Documentation et amélioration des procédures internes.</li>
+    </ul>
+
+    <h5 class="mt-3">Compétences développées</h5>
+    <ul class="stagger-list">
+      <li><strong>Techniques :</strong> dépannage système/réseau, gestion de tickets, support à distance.</li>
+      <li><strong>Comportementales :</strong> communication, gestion du stress, écoute active, service client.</li>
+    </ul>
+  </div>
+
+  <div class="text-center mt-4">
+    <a href="projets.html" class="btn btn-custom">Voir mes Projets</a>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div>© 2025 — Carnet de Compétences</div>
+</footer>
+
+<script>
+  const toggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".main-nav");
+  toggle.addEventListener("click", () => nav.classList.toggle("active"));
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>

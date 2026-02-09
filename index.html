@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil - Carnet de Compétences</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+
+  <!-- Header -->
+  <header class="site-header reveal">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+      <div class="brand mb-3 mb-md-0">
+        <h1 class="site-title">Carnet de Compétences</h1>
+        <h3 class="site-name">Sedra Shalhawi</h3>
+        <p class="site-sub">Étudiante Ingénierie & Cybersécurité</p>
+      </div>
+      <div class="menu-toggle">
+        <span></span><span></span><span></span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Accueil</a>
+        <a href="competences.html">Compétences</a>
+        <a href="projets.html">Projets</a>
+        <a href="experience.html">Expériences</a>
+        <a href="benevolat.html">Bénévolat</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="home-main">
+    <section class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal show">
+          <p class="hero-kicker">Carnet de compétences</p>
+          <h1>Cybersécurité, réseaux et rigueur d’ingénierie pour des systèmes fiables</h1>
+          <p class="hero-lead">Étudiante en 4ᵉ année d’ingénierie informatique & réseaux, spécialisée en cybersécurité. Je construis mon parcours autour de la protection des systèmes, de la qualité réseau et de l’automatisation utile.</p>
+          <div class="hero-actions">
+            <a class="btn-custom" href="competences.html">Voir mes Compétences</a>
+            <a class="btn-ghost" href="projets.html">Voir mes Projets</a>
+          </div>
+          <div class="hero-tags">
+            <span class="tag">Cybersécurité</span>
+            <span class="tag">Cloud & réseaux</span>
+            <span class="tag">Python & Web</span>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal show">
+          <div class="hero-card">
+            <h3>En bref</h3>
+            <ul class="hero-list">
+              <li><span class="dot"></span>Analyse de vulnérabilités, chiffrement et bonnes pratiques.</li>
+              <li><span class="dot"></span>Projets académiques en réseau, web et cryptographie.</li>
+              <li><span class="dot"></span>Engagements bénévoles orientés impact humain.</li>
+            </ul>
+          </div>
+          <div class="hero-card alt">
+            <h3>Objectif 2026</h3>
+            <p>Contribuer à des projets où la sécurité est pensée dès la conception, avec une approche méthodique et mesurable.</p>
+            <div class="stat-grid">
+              <div class="stat">
+                <div class="stat-value">4ᵉ</div>
+                <div class="stat-label">année</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value">CS</div>
+                <div class="stat-label">spécialité</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value">R&D</div>
+                <div class="stat-label">esprit</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section container reveal">
+      <div class="section-head">
+        <h2>Ce que je construis</h2>
+        <p>Des compétences solides, un portfolio lisible, et un profil orienté sécurité appliquée.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Compétences techniques</h3>
+          <p>Cybersécurité, réseau, web, automatisation : un socle robuste pour des projets concrets.</p>
+          <a class="text-link" href="competences.html">Explorer les compétences</a>
+        </div>
+        <div class="feature-card">
+          <h3>Projets académiques</h3>
+          <p>Réseaux, cryptographie, web dynamique : apprendre en construisant et en documentant.</p>
+          <a class="text-link" href="projets.html">Voir les projets</a>
+        </div>
+        <div class="feature-card">
+          <h3>Engagements bénévoles</h3>
+          <p>Communication, organisation, impact social : des valeurs qui complètent le technique.</p>
+          <a class="text-link" href="benevolat.html">Découvrir le bénévolat</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section container reveal">
+      <div class="callout">
+        <div>
+          <h2>Une ligne de code à la fois</h2>
+          <p>Je cherche des défis où la sécurité, la clarté et la collaboration font la différence.</p>
+        </div>
+        <a class="btn-custom" href="experience.html">Voir mes Expériences</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer reveal">
+    <div>© 2025 — Carnet de Compétences</div>
+  </footer>
+
+  <!-- Script menu burger -->
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".main-nav");
+    toggle.addEventListener("click", () => { nav.classList.toggle("active"); });
+  </script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
