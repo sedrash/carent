@@ -1,3 +1,3 @@
 # Carnet de compétences
 
-https://sedrash.github.io/carent/index.html
+https://github.com/sedrash/carent.git/index.html
