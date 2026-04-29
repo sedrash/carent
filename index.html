@@ -12,17 +12,22 @@
 </head>
 <body class="home">
 
-  <!-- Header -->
   <header class="site-header reveal">
     <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
-      <div class="brand mb-3 mb-md-0">
-        <h1 class="site-title">Carnet de Compétences</h1>
-        <h3 class="site-name">Sedra Shalhawi</h3>
-        <p class="site-sub">Étudiante Ingénierie & Cybersécurité</p>
+
+      <div class="brand d-flex align-items-center gap-3 mb-3 mb-md-0">
+        <img class="brand-logo-img" src="images/logo-sedra-header.png" alt="Logo Sedra">
+        <div>
+          <h1 class="site-title">Carnet de Compétences</h1>
+          <h3 class="site-name">Sedra Shalhawi</h3>
+          <p class="site-sub">Étudiante Ingénierie & Cybersécurité</p>
+        </div>
       </div>
+
       <div class="menu-toggle">
         <span></span><span></span><span></span>
       </div>
+
       <nav class="main-nav">
         <a href="index.html">Accueil</a>
         <a href="competences.html">Compétences</a>
@@ -33,7 +38,6 @@
     </div>
   </header>
 
-  <!-- Main -->
   <main class="home-main">
     <section class="hero">
       <div class="hero-grid container">
@@ -83,6 +87,91 @@
       </div>
     </section>
 
+    <section class="home-section container reveal" id="portrait">
+      <div class="section-head">
+        <h2>Mon portrait professionnel</h2>
+        <p>Les éléments clés de mon parcours, de mes valeurs et de mon projet d’évolution.</p>
+      </div>
+
+      <div class="identity-layout">
+        <article class="identity-intro">
+          <p class="portrait-eyebrow">Profil</p>
+          <h3>Une future ingénieure orientée cybersécurité, réseau et fiabilité des systèmes.</h3>
+          <p>Je suis étudiante en ingénierie informatique et réseaux, spécialisée en cybersécurité. Mon parcours m’aide à construire une approche complète : comprendre les systèmes, repérer leurs fragilités, documenter clairement mon travail et proposer des solutions utiles.</p>
+          <p>Ce qui me motive, c’est la sécurité appliquée à des situations concrètes : protéger les infrastructures, améliorer les pratiques et apprendre à travailler avec méthode dans des environnements techniques exigeants.</p>
+
+          <div class="identity-pill-row" aria-label="Axes de mon profil">
+            <span>Cybersécurité</span>
+            <span>Réseaux</span>
+            <span>Analyse</span>
+            <span>Rigueur</span>
+          </div>
+        </article>
+
+        <aside class="identity-focus" aria-label="Compétences principales">
+          <div class="focus-item">
+            <span>Technique</span>
+            <strong>Python, Java, web, bases de données, sécurité réseau</strong>
+          </div>
+          <div class="focus-item">
+            <span>Comportemental</span>
+            <strong>Autonomie, curiosité, persévérance, sens des responsabilités</strong>
+          </div>
+          <div class="focus-item">
+            <span>Transversal</span>
+            <strong>Communication, organisation, documentation, travail en équipe</strong>
+          </div>
+        </aside>
+      </div>
+
+      <div class="future-vision">
+        <div class="future-copy">
+          <p class="portrait-eyebrow">Projection</p>
+          <h3>Comment je me vois dans 3 à 5 ans</h3>
+          <p>Je me vois évoluer vers un rôle d’ingénieure en cybersécurité ou en infrastructure, capable de sécuriser des environnements techniques tout en gardant une vision claire des usages et des besoins humains.</p>
+        </div>
+
+        <div class="future-targets" aria-label="Objectifs professionnels">
+          <span>Audit & analyse</span>
+          <span>Sécurité réseau</span>
+          <span>Cloud sécurisé</span>
+          <span>Documentation claire</span>
+        </div>
+      </div>
+
+      <div class="values-layout">
+        <article class="values-panel">
+          <div class="values-title">
+            <span class="value-mark">+</span>
+            <h3>Mes valeurs</h3>
+          </div>
+          <p>Ce sont les repères que je veux garder dans mes projets et dans ma manière de travailler.</p>
+          <div class="value-tags">
+            <span>Rigueur</span>
+            <span>Respect</span>
+            <span>Fiabilité</span>
+            <span>Apprentissage</span>
+            <span>Entraide</span>
+          </div>
+        </article>
+
+        <article class="values-panel anti-values">
+          <div class="values-title">
+            <span class="value-mark">-</span>
+            <h3>Mes anti-valeurs</h3>
+          </div>
+          <p>Ce sont les attitudes que je veux éviter, car elles fragilisent la qualité du travail et la confiance dans une équipe.</p>
+          <div class="value-tags">
+            <span>Négligence</span>
+            <span>Manque d’écoute</span>
+            <span>Désorganisation</span>
+            <span>Travail bâclé</span>
+            <span>Individualisme</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <section class="home-section container reveal">
       <div class="section-head">
         <h2>Ce que je construis</h2>
@@ -108,6 +197,87 @@
     </section>
 
     <section class="home-section container reveal">
+      <div class="section-head">
+        <h2>Technologies & outils</h2>
+        <p>Les environnements que j’utilise avec les techniques que je développe dans mes projets.</p>
+      </div>
+
+      <div class="tech-symbol-grid">
+        <article class="tech-symbol-card">
+          <span class="tech-symbol cyber">🛡️</span>
+          <h3>Cybersécurité</h3>
+          <p>Analyse de vulnérabilités, bonnes pratiques OWASP, tests SQLi/XSS.</p>
+        </article>
+
+        <article class="tech-symbol-card">
+          <span class="tech-symbol scan">🔎</span>
+          <h3>Nmap</h3>
+          <p>Scan de ports, découverte réseau et lecture des services exposés.</p>
+        </article>
+
+        <article class="tech-symbol-card">
+          <span class="tech-symbol traffic">📡</span>
+          <h3>Wireshark</h3>
+          <p>Analyse de paquets, compréhension TCP/IP et diagnostic réseau.</p>
+        </article>
+
+        <article class="tech-symbol-card">
+          <span class="tech-symbol burp">🧰</span>
+          <h3>Burp Suite</h3>
+          <p>Tests web, interception de requêtes et analyse de comportements.</p>
+        </article>
+
+        <article class="tech-symbol-card">
+          <span class="tech-symbol python">🐍</span>
+          <h3>Python</h3>
+          <p>Scripts d’automatisation, traitement de fichiers et prototypes sécurité.</p>
+        </article>
+
+        <article class="tech-symbol-card">
+          <span class="tech-symbol web">🌐</span>
+          <h3>Web</h3>
+          <p>HTML, CSS, JavaScript, PHP et interfaces responsives.</p>
+        </article>
+
+        <article class="tech-symbol-card">
+          <span class="tech-symbol data">🗄️</span>
+          <h3>Bases de données</h3>
+          <p>MySQL, modélisation, requêtes et gestion des données applicatives.</p>
+        </article>
+
+        <article class="tech-symbol-card">
+          <span class="tech-symbol cloud">☁️</span>
+          <h3>Cloud & DevOps</h3>
+          <p>Azure, Docker, Kubernetes et déploiement de services.</p>
+        </article>
+
+        <article class="tech-symbol-card">
+          <span class="tech-symbol access">🔐</span>
+          <h3>Identité & accès</h3>
+          <p>Keycloak, contrôle d’accès, authentification et sécurité applicative.</p>
+        </article>
+
+        <article class="tech-symbol-card">
+          <span class="tech-symbol proxy">🚦</span>
+          <h3>Traefik</h3>
+          <p>Reverse proxy, routage sécurisé et exposition de services.</p>
+        </article>
+
+        <article class="tech-symbol-card">
+          <span class="tech-symbol network">🧭</span>
+          <h3>Cisco PT</h3>
+          <p>VLAN, routage, topologies réseau et dépannage méthodique.</p>
+        </article>
+
+        <article class="tech-symbol-card">
+          <span class="tech-symbol linux">🐧</span>
+          <h3>Linux / Bash</h3>
+          <p>Commandes système, scripts Shell et administration de base.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="home-section container reveal">
       <div class="callout">
         <div>
           <h2>Une ligne de code à la fois</h2>
@@ -118,12 +288,10 @@
     </section>
   </main>
 
-  <!-- Footer -->
   <footer class="site-footer reveal">
     <div>© 2025 — Carnet de Compétences</div>
   </footer>
 
-  <!-- Script menu burger -->
   <script>
     const toggle = document.querySelector(".menu-toggle");
     const nav = document.querySelector(".main-nav");
@@ -131,6 +299,5 @@
   </script>
 
   <script src="script.js"></script>
-
 </body>
 </html>
