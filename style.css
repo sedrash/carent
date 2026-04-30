@@ -422,6 +422,75 @@ html[dir="rtl"] .future-targets {
 .experience-entry ul { margin-left: 18px; }
 .experience-entry ul li { margin-bottom: 6px; }
 
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.experience-card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(106, 27, 48, 0.12);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 10px 24px rgba(59, 31, 43, 0.07);
+  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(106, 27, 48, 0.22);
+  box-shadow: 0 16px 32px rgba(106, 27, 48, 0.12);
+}
+
+.experience-card.featured {
+  background: linear-gradient(180deg, #ffffff 0%, #fff6f1 100%);
+  border-color: rgba(138, 21, 56, 0.24);
+}
+
+.experience-card-head {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.experience-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #6a1b30, #d8755b);
+  color: #fff;
+  font-size: 1.7rem;
+  box-shadow: 0 12px 22px rgba(106, 27, 48, 0.18);
+}
+
+.experience-meta {
+  margin: 0 0 4px;
+  color: #8a1538;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.experience-card h3 {
+  margin: 0;
+  color: #3b1f2b;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.experience-card p {
+  color: #4d2836;
+  line-height: 1.6;
+}
+
 
 /* make hero less heavy on small devices */
 @media (max-width: 480px) {
@@ -1501,7 +1570,182 @@ body.home {
   .volunteer-grid {
     grid-template-columns: 1fr;
   }
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
   .volunteer-stats {
     grid-template-columns: 1fr;
+  }
+}
+
+/* -------------------
+   Harmonisation globale
+------------------- */
+body,
+body.home {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.site-title,
+.hero h1,
+.section-head h2,
+.identity-intro h3,
+.future-copy h3,
+.github-intro h3 {
+  font-family: inherit;
+  color: #3b1f2b;
+  line-height: 1.25;
+}
+
+.site-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+main h2,
+.section-head h2,
+.volunteer-hero h2,
+.values-panel h2 {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+main h3,
+.feature-card h3,
+.hero-card h3,
+.identity-intro h3,
+.future-copy h3,
+.github-intro h3,
+.cyber-project-card h4,
+.volunteer-card h3,
+.experience-card h3,
+.work-volunteer-bridge h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+main h4,
+main h5 {
+  font-size: 1.08rem;
+  font-weight: 800;
+}
+
+p,
+li,
+.hero-lead,
+.site-sub,
+.main-nav a,
+.feature-card p,
+.hero-card p,
+.identity-intro p,
+.future-copy p,
+.values-panel p,
+.github-intro p,
+.cyber-project-card p,
+.volunteer-card p,
+.experience-card p,
+.work-volunteer-bridge p {
+  font-size: 1rem;
+}
+
+.card-light,
+.hero-card,
+.feature-card,
+.identity-intro,
+.identity-focus,
+.future-vision,
+.values-panel,
+.github-intro,
+.cyber-project-card,
+.volunteer-card,
+.experience-card,
+.volunteer-hero,
+.work-volunteer-bridge,
+.callout {
+  border-radius: 18px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(106, 27, 48, 0.12);
+  box-shadow: 0 10px 24px rgba(59, 31, 43, 0.07);
+}
+
+.card-light:hover,
+.hero-card:hover,
+.feature-card:hover,
+.identity-intro:hover,
+.identity-focus:hover,
+.future-vision:hover,
+.values-panel:hover,
+.github-intro:hover,
+.cyber-project-card:hover,
+.volunteer-card:hover,
+.experience-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(106, 27, 48, 0.22);
+  box-shadow: 0 16px 32px rgba(106, 27, 48, 0.12);
+}
+
+.action-list span,
+.values-grid span,
+.bridge-actions span,
+.hero-tags .tag,
+.identity-pill-row span,
+.future-targets span,
+.value-tags span,
+.tool-tags span,
+.skill-inline {
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: 999px;
+}
+
+.volunteer-icon,
+.experience-icon {
+  width: 58px;
+  height: 58px;
+  flex-basis: 58px;
+  border-radius: 18px;
+  font-size: 1.7rem;
+}
+
+.experience-meta,
+.volunteer-meta,
+.section-kicker,
+.portrait-eyebrow {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 768px) {
+  .card-light,
+  .hero-card,
+  .feature-card,
+  .identity-intro,
+  .identity-focus,
+  .future-vision,
+  .values-panel,
+  .github-intro,
+  .cyber-project-card,
+  .volunteer-card,
+  .experience-card,
+  .volunteer-hero,
+  .work-volunteer-bridge,
+  .callout {
+    padding: 20px;
+  }
+
+  main h2,
+  .section-head h2,
+  .volunteer-hero h2,
+  .values-panel h2 {
+    font-size: 1.5rem;
   }
 }
