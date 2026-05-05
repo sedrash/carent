@@ -176,14 +176,8 @@ img, .gallery img, .profile-img, figure img {
   to   { opacity: 1; transform: scale(1); }
 }
 
-/* subtle floating effect for the site title */
-@keyframes floatTitle {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
-  100% { transform: translateY(0); }
-}
 .site-title {
-  animation: floatTitle 6s ease-in-out infinite;
+  animation: none;
 }
 
 .site-name {
@@ -424,7 +418,7 @@ html[dir="rtl"] .future-targets {
 
 .experience-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 18px;
   margin-bottom: 28px;
 }
@@ -445,8 +439,8 @@ html[dir="rtl"] .future-targets {
 }
 
 .experience-card.featured {
-  background: linear-gradient(180deg, #ffffff 0%, #fff6f1 100%);
-  border-color: rgba(138, 21, 56, 0.24);
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(106, 27, 48, 0.12);
 }
 
 .experience-card-head {
@@ -1444,8 +1438,8 @@ body.home {
 }
 
 .volunteer-card.featured {
-  background: linear-gradient(180deg, #ffffff 0%, #fff6f1 100%);
-  border-color: rgba(138, 21, 56, 0.24);
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(106, 27, 48, 0.12);
 }
 
 .volunteer-card-head {
@@ -1536,6 +1530,44 @@ body.home {
   font-weight: 800;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.experience-card .stagger-list {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: #4d2836;
+}
+
+.experience-card .stagger-list > li {
+  margin-bottom: 12px;
+}
+
+.experience-card .stagger-list > li:last-child {
+  margin-bottom: 0;
+}
+
+.experience-card .tech-logos-grid {
+  margin-top: 8px;
+}
+
+.github-intro,
+.cyber-project-card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(106, 27, 48, 0.12);
+  box-shadow: 0 10px 24px rgba(59, 31, 43, 0.07);
+}
+
+.github-intro h3,
+.cyber-project-card h4 {
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.tool-tags span {
+  border: 1px solid rgba(106, 27, 48, 0.13);
+  background: rgba(255, 247, 243, 0.9);
+  color: #5b3140;
 }
 
 .values-panel {

@@ -2,7 +2,7 @@
 (function(){
   function initReveals(){
   // Select elements we want animated (extended for site-wide animation)
-  const selector = ['.brand', '.site-title', '.site-sub', 'header', '.hero h1', '.hero p', 'h1', 'h2', 'p', 'section', '.card-light', '.btn-custom', '.main-nav a', 'img', 'figure', 'figcaption', '.site-footer'];
+  const selector = ['.brand', 'header', '.hero-panel', '.hero-card', '.feature-card', '.identity-intro', '.identity-focus', '.future-vision', '.values-panel', '.card-light', '.gallery img', '.site-footer'];
   const els = Array.from(document.querySelectorAll(selector.join(','))).filter(Boolean);
 
     if(els.length === 0) return;
@@ -109,9 +109,9 @@
       "Bénévolat": { en: "Volunteering", de: "Ehrenamt", ar: "التطوع" },
       "Carnet de Compétences": { en: "Skills Portfolio", de: "Kompetenzportfolio", ar: "ملف المهارات" },
       "Sedra Shalhawi": { en: "Sedra Shalhawi", de: "Sedra Shalhawi", ar: "سدرة شلحاوي" },
-      "Étudiante Ingénierie & Cybersécurité": { en: "Engineering & Cybersecurity Student", de: "Studentin für Ingenieurwesen & Cybersicherheit", ar: "طالبة هندسة وأمن سيبراني" },
+      "Future ingénieure en Cybersécurité & ingénierie": { en: "Future cybersecurity and engineering engineer", de: "Zukünftige Ingenieurin für Cybersicherheit und Ingenieurwesen", ar: "مهندسة مستقبلية في الأمن السيبراني والهندسة" },
       "Carnet de compétences": { en: "Skills portfolio", de: "Kompetenzportfolio", ar: "ملف المهارات" },
-      "Cybersécurité, réseaux et rigueur d’ingénierie pour des systèmes fiables": { en: "Cybersecurity, networks and engineering rigor for reliable systems", de: "Cybersicherheit, Netzwerke und ingenieurmäßige Sorgfalt für zuverlässige Systeme", ar: "الأمن السيبراني والشبكات والدقة الهندسية لبناء أنظمة موثوقة" },
+      "Cybersécurité, réseaux et ingénierie robuste pour des systèmes fiables": { en: "Cybersecurity, networks and robust engineering for reliable systems", de: "Cybersicherheit, Netzwerke und robuste Ingenieurarbeit für zuverlässige Systeme", ar: "الأمن السيبراني والشبكات والهندسة المتينة لبناء أنظمة موثوقة" },
       "Étudiante en 4ᵉ année d’ingénierie informatique & réseaux, spécialisée en cybersécurité. Je construis mon parcours autour de la protection des systèmes, de la qualité réseau et de l’automatisation utile.": { en: "Fourth-year computer engineering and networks student, specialized in cybersecurity. I am building my path around system protection, network quality and useful automation.", de: "Studentin im 4. Jahr Informatik und Netzwerke mit Schwerpunkt Cybersicherheit. Ich entwickle meinen Weg rund um Systemschutz, Netzwerkqualität und sinnvolle Automatisierung.", ar: "طالبة في السنة الرابعة في هندسة المعلوماتية والشبكات، متخصصة في الأمن السيبراني. أبني مساري حول حماية الأنظمة وجودة الشبكات والأتمتة المفيدة." },
       "Voir mes Compétences": { en: "View my Skills", de: "Meine Kompetenzen ansehen", ar: "عرض مهاراتي" },
       "Voir mes Projets": { en: "View my Projects", de: "Meine Projekte ansehen", ar: "عرض مشاريعي" },
@@ -144,10 +144,11 @@
       "Communication, organisation, documentation, travail en équipe": { en: "Communication, organization, documentation, teamwork", de: "Kommunikation, Organisation, Dokumentation, Teamarbeit", ar: "التواصل، التنظيم، التوثيق، العمل الجماعي" },
       "Projection": { en: "Projection", de: "Ausblick", ar: "التطلع" },
       "Comment je me vois dans 3 à 5 ans": { en: "How I see myself in 3 to 5 years", de: "Wie ich mich in 3 bis 5 Jahren sehe", ar: "كيف أرى نفسي بعد 3 إلى 5 سنوات" },
-      "Je me vois évoluer vers un rôle d’ingénieure en cybersécurité ou en infrastructure, capable de sécuriser des environnements techniques tout en gardant une vision claire des usages et des besoins humains.": { en: "I see myself growing into a cybersecurity or infrastructure engineering role, able to secure technical environments while keeping a clear view of user practices and human needs.", de: "Ich sehe mich in eine Rolle als Ingenieurin für Cybersicherheit oder Infrastruktur hineinwachsen, mit der Fähigkeit, technische Umgebungen zu sichern und zugleich Nutzung und menschliche Bedürfnisse im Blick zu behalten.", ar: "أرى نفسي أتطور نحو دور مهندسة في الأمن السيبراني أو البنية التحتية، قادرة على تأمين البيئات التقنية مع الحفاظ على رؤية واضحة للاستخدامات والاحتياجات الإنسانية." },
+      "Je me vois évoluer vers un rôle d’ingénieure en cybersécurité ou en infrastructure, capable de sécuriser des environnements techniques tout en gardant une vision claire des usages et des besoins humains. Je suis aussi ouverte aux opportunités à l’étranger : changer d’environnement, travailler en anglais et m’adapter à une équipe internationale font partie des expériences que j’ai envie de développer.": { en: "I see myself growing into a cybersecurity or infrastructure engineering role, able to secure technical environments while keeping a clear view of user practices and human needs. I am also open to opportunities abroad: changing environments, working in English and adapting to an international team are experiences I want to develop.", de: "Ich sehe mich in eine Rolle als Ingenieurin für Cybersicherheit oder Infrastruktur hineinwachsen, mit der Fähigkeit, technische Umgebungen zu sichern und zugleich Nutzung und menschliche Bedürfnisse im Blick zu behalten. Ich bin auch offen für Möglichkeiten im Ausland: ein neues Umfeld, Arbeit auf Englisch und die Anpassung an ein internationales Team sind Erfahrungen, die ich weiterentwickeln möchte.", ar: "أرى نفسي أتطور نحو دور مهندسة في الأمن السيبراني أو البنية التحتية، قادرة على تأمين البيئات التقنية مع الحفاظ على رؤية واضحة للاستخدامات والاحتياجات الإنسانية. أنا منفتحة أيضاً على الفرص في الخارج: تغيير البيئة، العمل باللغة الإنجليزية، والتكيف مع فريق دولي هي تجارب أرغب في تطويرها." },
       "Audit & analyse": { en: "Audit & analysis", de: "Audit & Analyse", ar: "التدقيق والتحليل" },
       "Sécurité réseau": { en: "Network security", de: "Netzwerksicherheit", ar: "أمن الشبكات" },
       "Cloud sécurisé": { en: "Secure cloud", de: "Sichere Cloud", ar: "سحابة آمنة" },
+      "Mobilité internationale": { en: "International mobility", de: "Internationale Mobilität", ar: "تنقل دولي" },
       "Documentation claire": { en: "Clear documentation", de: "Klare Dokumentation", ar: "توثيق واضح" },
       "Mes valeurs": { en: "My values", de: "Meine Werte", ar: "قيمي" },
       "Ce sont les repères que je veux garder dans mes projets et dans ma manière de travailler.": { en: "These are the reference points I want to keep in my projects and in the way I work.", de: "Das sind die Orientierungspunkte, die ich in meinen Projekten und in meiner Arbeitsweise bewahren möchte.", ar: "هذه هي المبادئ التي أريد الحفاظ عليها في مشاريعي وفي طريقة عملي." },
