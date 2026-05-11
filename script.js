@@ -284,21 +284,28 @@
       "compétences clés": { en: "key skills", de: "Schlüsselkompetenzen", ar: "مهارات أساسية" },
       "engagement actif": { en: "active commitment", de: "aktives Engagement", ar: "التزام نشط" },
       "Missions bénévoles": { en: "Volunteer missions", de: "Ehrenamtliche Aufgaben", ar: "المهام التطوعية" },
+      "ESAIP • Angers • 2025-2026": { en: "ESAIP • Angers • 2025-2026", de: "ESAIP • Angers • 2025-2026", ar: "ESAIP • أنجيه • 2025-2026" },
+      "Buddy Language": { en: "Buddy Language", de: "Buddy Language", ar: "Buddy Language" },
       "Accompagnement linguistique pour aider les étudiants à pratiquer l’oral, prendre confiance et créer des échanges culturels.": { en: "Language support to help students practice speaking, gain confidence and create cultural exchanges.", de: "Sprachliche Unterstützung, damit Studierende mündlich üben, Selbstvertrauen gewinnen und kulturellen Austausch schaffen.", ar: "دعم لغوي لمساعدة الطلاب على ممارسة المحادثة، واكتساب الثقة، وخلق تبادل ثقافي." },
       "Arabe oral": { en: "Spoken Arabic", de: "Arabisch mündlich", ar: "العربية الشفوية" },
       "Français oral": { en: "Spoken French", de: "Französisch mündlich", ar: "الفرنسية الشفوية" },
       "Échanges interculturels": { en: "Intercultural exchanges", de: "Interkultureller Austausch", ar: "تبادل ثقافي" },
       "Impact :": { en: "Impact:", de: "Wirkung:", ar: "الأثر:" },
       "faciliter l’intégration, l’expression orale et l’entraide entre étudiants.": { en: "facilitate integration, speaking practice and mutual support between students.", de: "Integration, mündlichen Ausdruck und gegenseitige Hilfe zwischen Studierenden erleichtern.", ar: "تسهيل الاندماج والتعبير الشفهي والتعاون بين الطلاب." },
+      "Animation d’échanges linguistiques et accompagnement des étudiants dans la pratique orale.": { en: "Facilitation of language exchanges and support for students in speaking practice.", de: "Moderation von Sprachaustauschen und Begleitung der Studierenden bei der mündlichen Praxis.", ar: "تنشيط تبادلات لغوية ومرافقة الطلاب في الممارسة الشفوية." },
       "Compétences liées au travail": { en: "Work-related skills", de: "Arbeitsbezogene Kompetenzen", ar: "مهارات مرتبطة بالعمل" },
       "Communication claire, pédagogie, adaptation au niveau de l’interlocuteur.": { en: "Clear communication, teaching approach, adaptation to the other person’s level.", de: "Klare Kommunikation, pädagogischer Ansatz, Anpassung an das Niveau des Gegenübers.", ar: "تواصل واضح، أسلوب تعليمي، والتكيف مع مستوى الطرف الآخر." },
+      "Resto du Cœur • Angers • Action solidaire": { en: "Resto du Cœur • Angers • Solidarity action", de: "Resto du Cœur • Angers • Solidarische Aktion", ar: "Resto du Cœur • أنجيه • عمل تضامني" },
+      "Resto du Cœur": { en: "Resto du Cœur", de: "Resto du Cœur", ar: "Resto du Cœur" },
       "Action solidaire • Distribution alimentaire": { en: "Solidarity action • Food distribution", de: "Solidarische Aktion • Lebensmittelausgabe", ar: "عمل تضامني • توزيع غذائي" },
       "Participation à la logistique et à la distribution alimentaire auprès de personnes en difficulté, dans un cadre organisé et collectif.": { en: "Participation in logistics and food distribution for people in difficulty, within an organized and collective setting.", de: "Mitarbeit in Logistik und Lebensmittelausgabe für Menschen in schwierigen Situationen, in einem organisierten und kollektiven Rahmen.", ar: "المشاركة في اللوجستيات وتوزيع الغذاء للأشخاص المحتاجين ضمن إطار منظم وجماعي." },
       "Gestion des stocks": { en: "Stock management", de: "Bestandsverwaltung", ar: "إدارة المخزون" },
       "Distribution": { en: "Distribution", de: "Ausgabe", ar: "التوزيع" },
       "Coordination équipe": { en: "Team coordination", de: "Teamkoordination", ar: "تنسيق الفريق" },
       "contribuer à une aide concrète, utile et respectueuse pour des publics fragilisés.": { en: "contribute to concrete, useful and respectful support for vulnerable groups.", de: "zu konkreter, nützlicher und respektvoller Hilfe für verletzliche Gruppen beitragen.", ar: "المساهمة في مساعدة عملية ومفيدة ومحترمة للفئات الهشة." },
+      "Gestion des stocks, préparation de la distribution et coordination avec l’équipe bénévole.": { en: "Stock management, preparation of distribution and coordination with the volunteer team.", de: "Bestandsverwaltung, Vorbereitung der Ausgabe und Koordination mit dem ehrenamtlichen Team.", ar: "إدارة المخزون، تحضير التوزيع والتنسيق مع فريق المتطوعين." },
       "Organisation, priorisation, communication, fiabilité dans une mission terrain.": { en: "Organization, prioritization, communication and reliability in a field mission.", de: "Organisation, Priorisierung, Kommunikation und Zuverlässigkeit in einer Aufgabe vor Ort.", ar: "التنظيم، تحديد الأولويات، التواصل، والموثوقية في مهمة ميدانية." },
+      "Mairie d’Avrillé • Avrillé • Vie locale": { en: "Avrillé Town Hall • Avrillé • Local life", de: "Rathaus Avrillé • Avrillé • Lokales Leben", ar: "بلدية أفرييه • أفرييه • الحياة المحلية" },
       "Mairie d’Avrillé • Vie locale": { en: "Avrillé Town Hall • Local life", de: "Rathaus Avrillé • Lokales Leben", ar: "بلدية أفرييه • الحياة المحلية" },
       "Accompagnement des seniors": { en: "Support for seniors", de: "Begleitung von Senioren", ar: "مرافقة كبار السن" },
       "Accompagnement de seniors dans des activités quotidiennes et participation à l’organisation d’événements communaux.": { en: "Supporting seniors in daily activities and helping organize municipal events.", de: "Begleitung von Senioren bei täglichen Aktivitäten und Mitwirkung an der Organisation kommunaler Veranstaltungen.", ar: "مرافقة كبار السن في الأنشطة اليومية والمشاركة في تنظيم الفعاليات البلدية." },
@@ -306,6 +313,7 @@
       "Planification": { en: "Planning", de: "Planung", ar: "التخطيط" },
       "Événements locaux": { en: "Local events", de: "Lokale Veranstaltungen", ar: "فعاليات محلية" },
       "soutenir le lien social et participer au bon déroulement d’activités collectives.": { en: "support social connection and contribute to the smooth running of collective activities.", de: "soziale Bindungen stärken und zum reibungslosen Ablauf gemeinsamer Aktivitäten beitragen.", ar: "دعم الروابط الاجتماعية والمساهمة في حسن سير الأنشطة الجماعية." },
+      "Accompagnement des seniors et participation à l’organisation d’activités communales.": { en: "Support for seniors and participation in organizing municipal activities.", de: "Begleitung von Senioren und Mitwirkung an der Organisation kommunaler Aktivitäten.", ar: "مرافقة كبار السن والمشاركة في تنظيم الأنشطة البلدية." },
       "Patience, rigueur, gestion du temps, coordination avec plusieurs interlocuteurs.": { en: "Patience, rigor, time management and coordination with several stakeholders.", de: "Geduld, Sorgfalt, Zeitmanagement und Koordination mit mehreren Ansprechpartnern.", ar: "الصبر، الدقة، إدارة الوقت، والتنسيق مع عدة أطراف." },
       "Ce que ces missions m’apportent": { en: "What these missions bring me", de: "Was mir diese Aufgaben bringen", ar: "ما تضيفه لي هذه المهام" },
       "Valeurs et compétences développées": { en: "Values and skills developed", de: "Entwickelte Werte und Kompetenzen", ar: "القيم والمهارات المكتسبة" },
@@ -318,8 +326,14 @@
       "🌱 Responsabilité": { en: "🌱 Responsibility", de: "🌱 Verantwortung", ar: "🌱 المسؤولية" },
       "Internationaux & Académiques": { en: "International & Academic", de: "International & akademisch", ar: "دولية وأكاديمية" },
       "Projets Internationaux": { en: "International Projects", de: "Internationale Projekte", ar: "مشاريع دولية" },
+      "République Tchèque • 2024-2025": { en: "Czech Republic • 2024-2025", de: "Tschechien • 2024-2025", ar: "جمهورية التشيك • 2024-2025" },
       "République Tchèque 2024–2025 —": { en: "Czech Republic 2024–2025 —", de: "Tschechien 2024–2025 —", ar: "جمهورية التشيك 2024-2025 —" },
+      "NLP et résumé automatique de dialogues": { en: "NLP and automatic dialogue summarization", de: "NLP und automatische Dialogzusammenfassung", ar: "معالجة اللغة الطبيعية والتلخيص التلقائي للحوارات" },
+      "Projet universitaire axé sur la génération automatique de résumés de dialogues et la représentation vectorielle des mots.": { en: "University project focused on automatic dialogue summarization and word vector representation.", de: "Universitätsprojekt zur automatischen Dialogzusammenfassung und Vektordarstellung von Wörtern.", ar: "مشروع جامعي يركز على التلخيص التلقائي للحوارات والتمثيل الشعاعي للكلمات." },
       "Projet universitaire axé sur la génération automatique de résumés de dialogues et la représentation vectorielle des mots, afin de faciliter la lecture et l’analyse de conversations longues.": { en: "University project focused on automatic dialogue summarization and word vector representation to make long conversations easier to read and analyze.", de: "Universitätsprojekt zur automatischen Zusammenfassung von Dialogen und zur Vektordarstellung von Wörtern, um lange Gespräche leichter lesbar und analysierbar zu machen.", ar: "مشروع جامعي يركز على التلخيص التلقائي للحوارات والتمثيل الشعاعي للكلمات لتسهيل قراءة المحادثات الطويلة وتحليلها." },
+      "faciliter la lecture et l’analyse de conversations longues grâce à des modèles de résumé et d’embeddings.": { en: "make long conversations easier to read and analyze using summarization and embedding models.", de: "lange Gespräche mithilfe von Zusammenfassungs- und Embedding-Modellen leichter lesbar und analysierbar machen.", ar: "تسهيل قراءة المحادثات الطويلة وتحليلها بفضل نماذج التلخيص والتضمينات." },
+      "Modèle CBOW, dialogue summarization avec DistilBART, évaluation ROUGE et analyse des performances.": { en: "CBOW model, dialogue summarization with DistilBART, ROUGE evaluation and performance analysis.", de: "CBOW-Modell, Dialogzusammenfassung mit DistilBART, ROUGE-Bewertung und Leistungsanalyse.", ar: "نموذج CBOW، تلخيص الحوارات باستخدام DistilBART، تقييم ROUGE وتحليل الأداء." },
+      "NLP, embeddings, Transformers, expérimentation, structuration de projet et documentation GitHub.": { en: "NLP, embeddings, Transformers, experimentation, project structuring and GitHub documentation.", de: "NLP, Embeddings, Transformers, Experimentieren, Projektstrukturierung und GitHub-Dokumentation.", ar: "معالجة اللغة الطبيعية، التضمينات، Transformers، التجريب، هيكلة المشروع وتوثيق GitHub." },
       "Objectifs et réalisations": { en: "Objectives and achievements", de: "Ziele und Ergebnisse", ar: "الأهداف والإنجازات" },
       "Développement d’un modèle": { en: "Development of a", de: "Entwicklung eines", ar: "تطوير نموذج" },
       "(Continuous Bag of Words) pour la représentation vectorielle des mots.": { en: "(Continuous Bag of Words) model for word vector representation.", de: "(Continuous Bag of Words) zur Vektordarstellung von Wörtern.", ar: "(Continuous Bag of Words) لتمثيل الكلمات شعاعياً." },
@@ -330,6 +344,16 @@
       "NLP, embeddings, Transformers, ROUGE evaluation, PyTorch, HuggingFace.": { en: "NLP, embeddings, Transformers, ROUGE evaluation, PyTorch, HuggingFace.", de: "NLP, Embeddings, Transformers, ROUGE-Bewertung, PyTorch, HuggingFace.", ar: "معالجة اللغة الطبيعية، التضمينات، Transformers، تقييم ROUGE، PyTorch، HuggingFace." },
       "expérimentation, rigueur scientifique, structuration de projet, documentation GitHub.": { en: "experimentation, scientific rigor, project structuring, GitHub documentation.", de: "Experimentieren, wissenschaftliche Sorgfalt, Projektstrukturierung, GitHub-Dokumentation.", ar: "التجريب، الدقة العلمية، هيكلة المشروع، وتوثيق GitHub." },
       "Projets en entreprise": { en: "Company Projects", de: "Unternehmensprojekte", ar: "مشاريع في الشركة" },
+      "P2Enjoy Studio • Paris • Mars 2026": { en: "P2Enjoy Studio • Paris • March 2026", de: "P2Enjoy Studio • Paris • März 2026", ar: "P2Enjoy Studio • باريس • مارس 2026" },
+      "Activ’ESAIP — Sécurité des agents IA": { en: "Activ'ESAIP — AI agent security", de: "Activ'ESAIP — Sicherheit von KI-Agenten", ar: "Activ'ESAIP — أمن وكلاء الذكاء الاصطناعي" },
+      "Contribution centrée sur l’architecture et la sécurité des agents IA dans un contexte sensible lié à la confidentialité des données.": { en: "Contribution focused on the architecture and security of AI agents in a sensitive context linked to data confidentiality.", de: "Beitrag mit Fokus auf Architektur und Sicherheit von KI-Agenten in einem sensiblen Kontext rund um Datenvertraulichkeit.", ar: "مساهمة تركز على بنية وأمن وكلاء الذكاء الاصطناعي في سياق حساس مرتبط بسرية البيانات." },
+      "Agents IA": { en: "AI agents", de: "KI-Agenten", ar: "وكلاء الذكاء الاصطناعي" },
+      "Sécurité": { en: "Security", de: "Sicherheit", ar: "الأمن" },
+      "Architecture": { en: "Architecture", de: "Architektur", ar: "البنية" },
+      "Voir le projet": { en: "View the project", de: "Projekt ansehen", ar: "عرض المشروع" },
+      "proposer une architecture hybride qui garde l’isolation Docker tout en permettant la planification, la mémoire persistante et l’usage contrôlé d’outils.": { en: "propose a hybrid architecture that keeps Docker isolation while enabling planning, persistent memory and controlled tool use.", de: "eine hybride Architektur vorschlagen, die Docker-Isolation beibehält und zugleich Planung, persistenten Speicher und kontrollierte Tool-Nutzung ermöglicht.", ar: "اقتراح بنية هجينة تحافظ على عزل Docker مع إتاحة التخطيط والذاكرة المستمرة والاستخدام المتحكم فيه للأدوات." },
+      "Étude comparative OpenClaw/NanoClaw, analyse du compromis flexibilité/sécurité et proposition d’un modèle hybride sécurisé.": { en: "Comparative study of OpenClaw/NanoClaw, analysis of the flexibility/security trade-off and proposal of a secure hybrid model.", de: "Vergleichsstudie OpenClaw/NanoClaw, Analyse des Kompromisses zwischen Flexibilität und Sicherheit sowie Vorschlag eines sicheren Hybridmodells.", ar: "دراسة مقارنة بين OpenClaw وNanoClaw، تحليل التوازن بين المرونة والأمن، واقتراح نموذج هجين آمن." },
+      "Architecture d’agents IA, conteneurisation Docker, analyse de risques, contrôle des accès et documentation technique.": { en: "AI agent architecture, Docker containerization, risk analysis, access control and technical documentation.", de: "Architektur von KI-Agenten, Docker-Containerisierung, Risikoanalyse, Zugriffskontrolle und technische Dokumentation.", ar: "بنية وكلاء الذكاء الاصطناعي، حاويات Docker، تحليل المخاطر، التحكم في الوصول والتوثيق التقني." },
       "Projet réalisé en équipe dans le cadre de l’alternance, à raison d’une semaine par mois en entreprise.": { en: "Team project completed as part of the work-study program, with one week per month in the company.", de: "Teamprojekt im Rahmen des dualen Studiums, mit einer Woche pro Monat im Unternehmen.", ar: "مشروع جماعي ضمن برنامج التناوب، بمعدل أسبوع واحد شهرياً داخل الشركة." },
       "Travail collaboratif autour de thématiques IA et cybersécurité, comprenant plusieurs laboratoires pratiques (5 labs IA au total).": { en: "Collaborative work around AI and cybersecurity topics, including several practical labs (5 AI labs in total).", de: "Kollaborative Arbeit zu KI- und Cybersicherheitsthemen mit mehreren Praxislaboren (insgesamt 5 KI-Labs).", ar: "عمل تعاوني حول موضوعات الذكاء الاصطناعي والأمن السيبراني، ويتضمن عدة مختبرات عملية (5 مختبرات ذكاء اصطناعي إجمالاً)." },
       "Lors de la première semaine, mise en place d’un reverse proxy Traefik, incluant la configuration du routage, la gestion des services et l’exposition sécurisée des applications.": { en: "During the first week, setup of a Traefik reverse proxy, including routing configuration, service management and secure application exposure.", de: "In der ersten Woche Einrichtung eines Traefik-Reverse-Proxys mit Routing-Konfiguration, Dienstverwaltung und sicherer Veröffentlichung von Anwendungen.", ar: "خلال الأسبوع الأول، تم إعداد وكيل عكسي Traefik، بما يشمل ضبط التوجيه وإدارة الخدمات وإتاحة التطبيقات بشكل آمن." },
@@ -337,21 +361,36 @@
       "Bases en cybersécurité et infrastructure réseau.": { en: "Basics in cybersecurity and network infrastructure.", de: "Grundlagen der Cybersicherheit und Netzwerkinfrastruktur.", ar: "أساسيات الأمن السيبراني والبنية التحتية للشبكات." },
       "Déploiement de services et exposition sécurisée via Traefik.": { en: "Service deployment and secure exposure through Traefik.", de: "Bereitstellung von Diensten und sichere Veröffentlichung über Traefik.", ar: "نشر الخدمات وإتاحتها بشكل آمن عبر Traefik." },
       "Projets Académiques": { en: "Academic Projects", de: "Akademische Projekte", ar: "مشاريع أكاديمية" },
+      "Projet académique • Cisco Packet Tracer": { en: "Academic project • Cisco Packet Tracer", de: "Akademisches Projekt • Cisco Packet Tracer", ar: "مشروع أكاديمي • Cisco Packet Tracer" },
+      "Projet académique • Python": { en: "Academic project • Python", de: "Akademisches Projekt • Python", ar: "مشروع أكاديمي • Python" },
+      "Projet académique • Web": { en: "Academic project • Web", de: "Akademisches Projekt • Web", ar: "مشروع أكاديمي • الويب" },
+      "Simulation réseau": { en: "Network simulation", de: "Netzwerksimulation", ar: "محاكاة الشبكة" },
       "Simulation Réseau —": { en: "Network Simulation —", de: "Netzwerksimulation —", ar: "محاكاة الشبكات —" },
+      "Conception et dépannage de topologies intégrant routeurs, switches, VLAN et protocoles de routage.": { en: "Design and troubleshooting of topologies integrating routers, switches, VLANs and routing protocols.", de: "Entwurf und Fehlerbehebung von Topologien mit Routern, Switches, VLANs und Routing-Protokollen.", ar: "تصميم واستكشاف أعطال طوبولوجيات تضم موجهات ومبدلات وVLAN وبروتوكولات توجيه." },
       "Conception et dépannage de topologies complexes intégrant routeurs, switches, VLAN et protocoles de routage.": { en: "Design and troubleshooting of complex topologies integrating routers, switches, VLANs and routing protocols.", de: "Entwurf und Fehlerbehebung komplexer Topologien mit Routern, Switches, VLANs und Routing-Protokollen.", ar: "تصميم واستكشاف أعطال طوبولوجيات معقدة تضم موجهات ومبدلات وVLAN وبروتوكولات توجيه." },
+      "Routage": { en: "Routing", de: "Routing", ar: "التوجيه" },
+      "Dépannage": { en: "Troubleshooting", de: "Fehlerbehebung", ar: "استكشاف الأعطال" },
+      "Configuration réseau, dépannage méthodique des couches OSI et documentation de la topologie.": { en: "Network configuration, methodical troubleshooting of OSI layers and topology documentation.", de: "Netzwerkkonfiguration, methodische Fehlerbehebung der OSI-Schichten und Dokumentation der Topologie.", ar: "إعداد الشبكة، استكشاف منهجي لأعطال طبقات OSI وتوثيق الطوبولوجيا." },
       "Configuration": { en: "Configuration", de: "Konfiguration", ar: "إعداد" },
       ", trunking, routage statique et dynamique.": { en: ", trunking, static and dynamic routing.", de: ", Trunking, statisches und dynamisches Routing.", ar: "، trunking، والتوجيه الثابت والديناميكي." },
       "Dépannage méthodique des couches OSI.": { en: "Methodical troubleshooting of OSI layers.", de: "Methodische Fehlerbehebung der OSI-Schichten.", ar: "استكشاف منهجي لأعطال طبقات OSI." },
       "Documentation du réseau et optimisation des performances.": { en: "Network documentation and performance optimization.", de: "Netzwerkdokumentation und Leistungsoptimierung.", ar: "توثيق الشبكة وتحسين الأداء." },
+      "Cryptographie appliquée": { en: "Applied cryptography", de: "Angewandte Kryptografie", ar: "التشفير التطبيقي" },
       "Cryptographie Appliquée —": { en: "Applied Cryptography —", de: "Angewandte Kryptografie —", ar: "التشفير التطبيقي —" },
       "Implémentation de protocoles de chiffrement et de vérification d’intégrité pour sécuriser les échanges de données.": { en: "Implementation of encryption and integrity verification protocols to secure data exchanges.", de: "Implementierung von Verschlüsselungs- und Integritätsprüfungsprotokollen zur Sicherung des Datenaustauschs.", ar: "تنفيذ بروتوكولات التشفير والتحقق من السلامة لتأمين تبادل البيانات." },
+      "Hachage": { en: "Hashing", de: "Hashing", ar: "التجزئة" },
+      "Chiffrement": { en: "Encryption", de: "Verschlüsselung", ar: "التشفير" },
+      "Intégrité": { en: "Integrity", de: "Integrität", ar: "السلامة" },
+      "Génération de clés, scripts de chiffrement, contrôle d’intégrité et validation des algorithmes.": { en: "Key generation, encryption scripts, integrity checks and algorithm validation.", de: "Schlüsselerzeugung, Verschlüsselungsskripte, Integritätskontrolle und Validierung der Algorithmen.", ar: "توليد المفاتيح، سكربتات التشفير، التحقق من السلامة والتحقق من الخوارزميات." },
       "Utilisation de primitives :": { en: "Use of primitives:", de: "Verwendung von Primitiven:", ar: "استخدام بدائيات:" },
       ", chiffrement symétrique et asymétrique.": { en: ", symmetric and asymmetric encryption.", de: ", symmetrische und asymmetrische Verschlüsselung.", ar: "، التشفير المتماثل وغير المتماثل." },
       "Tests de sécurité et validation des algorithmes.": { en: "Security testing and algorithm validation.", de: "Sicherheitstests und Validierung von Algorithmen.", ar: "اختبارات أمنية والتحقق من الخوارزميات." },
       "Scripts de chiffrement, génération de clés et contrôle d’intégrité.": { en: "Encryption scripts, key generation and integrity checks.", de: "Verschlüsselungsskripte, Schlüsselerzeugung und Integritätskontrolle.", ar: "سكربتات تشفير، توليد مفاتيح، والتحقق من السلامة." },
+      "Développement web dynamique": { en: "Dynamic web development", de: "Dynamische Webentwicklung", ar: "تطوير ويب ديناميكي" },
       "Développement Web": { en: "Web Development", de: "Webentwicklung", ar: "تطوير الويب" },
       "Dynamique": { en: "Dynamic", de: "Dynamisch", ar: "الديناميكي" },
       "Création d’applications web interactives avec gestion des utilisateurs et interface responsive.": { en: "Creation of interactive web applications with user management and responsive interfaces.", de: "Erstellung interaktiver Webanwendungen mit Benutzerverwaltung und responsiven Oberflächen.", ar: "إنشاء تطبيقات ويب تفاعلية مع إدارة المستخدمين وواجهات متجاوبة." },
+      "Développement full-stack, gestion des sessions, intégration responsive et sécurité applicative.": { en: "Full-stack development, session management, responsive integration and application security.", de: "Full-Stack-Entwicklung, Sitzungsverwaltung, responsive Integration und Anwendungssicherheit.", ar: "تطوير كامل الواجهة والخلفية، إدارة الجلسات، تكامل متجاوب وأمن التطبيقات." },
       "Technologies :": { en: "Technologies:", de: "Technologien:", ar: "التقنيات:" },
       "Développement full-stack avec gestion des sessions et sécurité.": { en: "Full-stack development with session management and security.", de: "Full-Stack-Entwicklung mit Sitzungsverwaltung und Sicherheit.", ar: "تطوير كامل الواجهة والخلفية مع إدارة الجلسات والأمان." },
       "Conception d’interfaces modernes et intuitives.": { en: "Design of modern and intuitive interfaces.", de: "Gestaltung moderner und intuitiver Benutzeroberflächen.", ar: "تصميم واجهات حديثة وبديهية." },
@@ -474,11 +513,23 @@
       return translatedText;
     }
 
+    const textElementSelector = 'h1, h2, h3, h4, h5, p, a, strong, figcaption, span, button, label';
+
+    function isSimpleTextElement(el){
+      if(!el || el.closest('.translate-panel')) return false;
+      if(['SCRIPT', 'STYLE', 'TEXTAREA', 'INPUT', 'SELECT', 'OPTION', 'CODE'].includes(el.tagName)) return false;
+      if(el.children.length > 0) return false;
+      return el.matches(textElementSelector) && normalizeText(el.textContent);
+    }
+
     function getTextNodes(root){
       const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
         acceptNode(node){
           const parent = node.parentElement;
           if(!parent || ['SCRIPT', 'STYLE', 'TEXTAREA', 'INPUT', 'SELECT', 'OPTION', 'CODE'].includes(parent.tagName)) {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if(isSimpleTextElement(parent)) {
             return NodeFilter.FILTER_REJECT;
           }
           return node.nodeValue.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
@@ -490,13 +541,7 @@
     }
 
     function getTextElements(root){
-      const selector = 'h1, h2, h3, h4, h5, p, a, strong, figcaption, span, button, label';
-      return Array.from(root.querySelectorAll(selector)).filter(el => {
-        if(el.closest('.translate-panel')) return false;
-        if(['SCRIPT', 'STYLE', 'TEXTAREA', 'INPUT', 'SELECT', 'OPTION', 'CODE'].includes(el.tagName)) return false;
-        if(el.children.length > 0) return false;
-        return normalizeText(el.textContent);
-      });
+      return Array.from(root.querySelectorAll(textElementSelector)).filter(isSimpleTextElement);
     }
 
     function translatePage(lang){
